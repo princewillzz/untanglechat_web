@@ -1,17 +1,21 @@
 import React from "react";
 import "./navbar.css";
 
+import logo from "../../assets/images/logo.png";
+
 function Navbar() {
-	return <div>
-		<nav> 
-		<div class="companyLogoContainer">
-			<div class="logo">
-				<img src="../../assets/images/logo.png" alt="logo" />
-			</div>
-			<h1>untangledchat</h1>
-		</div>
-		</nav>
-	</div>;
+	return (
+		<>
+			<nav>
+				<div className="companyLogoContainer">
+					<div className="logo">
+						<img src={logo} alt="logo" />
+					</div>
+					<h1>untangledchat</h1>
+				</div>
+			</nav>
+		</>
+	);
 }
 
 export default Navbar;

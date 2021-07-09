@@ -1,0 +1,15 @@
+.container {
+	background: #f8f9fa;
+	height: 100vh;
+}
+main {
+	margin-inline: auto;
+	height: 100vh;
+	background: #fff;
+}
+
+@media only screen and (min-width: 700px) {
+	main {
+		width: 80vw;
+	}
+}

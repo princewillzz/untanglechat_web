@@ -1,25 +1,24 @@
 nav {
-  background: #b3bcf9;
-  height: 80px;
-  width: 100vw;
-  /* display: flex; */
+	background: #b3bcf9;
+	height: 80px;
+	width: 100%;
 }
 .companyLogoContainer {
-  position: absolute;
-  /* display: inline-block; */
-  display: flex;
-  left: 12%;
-  /* background-color: red; */
-  align-items: center;
+	max-height: 80px;
+	display: flex;
+	margin-left: 12%;
+	/* background-color: red; */
+	align-items: center;
 }
 .companyLogoContainer h1 {
-  color: #fff;
-  font-size: 36px;
+	color: #fff;
+	font-size: 36px;
 }
 
 .logo img {
-  width: 120px;
-  padding: 0 23px;
+	width: 70px;
+	height: 70px;
+	margin-right: 0.7rem;
 }
 /* 
 nav ul{
