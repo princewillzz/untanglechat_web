@@ -15,7 +15,7 @@ function App() {
 					<Route path="*">
 						<h1
 							style={{
-								marginTop: "40%",
+								marginTop: "10%",
 								textAlign: "center",
 							}}
 						>
