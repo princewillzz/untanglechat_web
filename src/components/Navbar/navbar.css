@@ -2,6 +2,8 @@ nav {
 	background: #b3bcf9;
 	height: 80px;
 	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 .companyLogoContainer {
 	max-height: 80px;
@@ -19,6 +21,25 @@ nav {
 	width: 70px;
 	height: 70px;
 	margin-right: 0.7rem;
+}
+.nav-items {
+	display: flex;
+	/* background: yellow; */
+	gap: 2rem;
+	align-items: center;
+	margin-right: 10%;
+}
+.nav-item {
+	list-style: none;
+}
+.nav-item-link {
+	text-decoration: none;
+	color: #fff;
+	transition-duration: 600ms;
+}
+.nav-item-link:hover {
+	color: rgb(92, 33, 33);
+	text-decoration: underline;
 }
 /* 
 nav ul{
