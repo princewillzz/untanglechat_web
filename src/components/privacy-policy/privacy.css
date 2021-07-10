@@ -4,8 +4,28 @@
 }
 main {
 	margin-inline: auto;
-	height: 100vh;
 	background: #fff;
+	padding-inline: 2rem;
+	padding-bottom: 5rem;
+}
+.heading p {
+	margin-bottom: 0px;
+	font-size: small;
+	font-weight: 300;
+}
+.heading .companyName {
+	margin-top: 5px;
+	font-size: 26px;
+	font-weight: 400;
+}
+
+section p {
+	font-weight: 300;
+	font-family: cursive;
+}
+section .topicHeading {
+	color: #585fe7;
+	font-size: larger;
 }
 
 @media only screen and (min-width: 700px) {
